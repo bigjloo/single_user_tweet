@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>twitter single user</title>
+ </head>
+ <body>
+  <div class='container'>
+    <form id= "submit_tweet" action= "/" method= "post" >
+      <input type= "text" name= "tweet" placeholder= "Tweet here!">
+      <input id= "tweet_button" type= "submit" value= "Tweet!">
+    </form>
+      <div id="status"></div>
+      <div id="loading_img" style="display: none;"><img src='/img/ajax-loader.gif'>Loading...</img>
+      </div>
+      <div id= 'tweet_show'>
+      </div>
+  </div>
+ </body>
+</html>

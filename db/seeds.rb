@@ -1,0 +1,1 @@
+TweetUser.create(username: "Jay")
